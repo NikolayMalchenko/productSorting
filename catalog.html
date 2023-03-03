@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+   <!-- страница -->
+    <div class="page-wrapper">
+    <ul class="catalog-list"></ul>
+    <section class="present">
+      <ul class="present-list"></ul>
+    </section>
+  </div>
+
+  <!-- шаблон табов -->
+  <template id="template-catalog-item">
+    <li class="catalog-item">
+      <button class="catalog-btn"></button>
+    </li>
+  </template>
+
+  <!-- шаблон товара -->
+  <template id="template-present-item">
+    <li class="present-item">
+      <span class="present-text"></span>
+      <img class="present-img">
+    </li>
+  </template>
+
+  
+  <script src="script/main.js"></script>
+  </body>
+</html>
+
+
+
